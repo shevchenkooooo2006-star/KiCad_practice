@@ -5,6 +5,7 @@
 
 
 
+
 (version 20250114)
 (generator "eeschema")
 (generator_version "10.0")
@@ -1896,14 +1897,6 @@
   (pin "1" (uuid "5dd2d990-b069-4331-9a98-5c572005024b"))
   (instances (project "Variant1_Practical4" (path "/f261cab6-df07-4b02-81a8-c4fba49b4ffa" (reference "#PWR04") (unit 1))))
 )
-(symbol (lib_id "power:+5V") (at 165 58 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4c779a41-1edd-4142-af26-f8bf9cd5c4ac")
-  (property "Reference" "#PWR05" (at 169 56 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-  (property "Value" "+5V" (at 169 59 0) (effects (font (size 1.27 1.27)) (justify left)))
-  (property "Footprint" "" (at 165 58 0) (effects (font (size 1.27 1.27)) (hide yes)))
-  (property "Datasheet" "~" (at 165 58 0) (effects (font (size 1.27 1.27)) (hide yes)))
-  (pin "1" (uuid "b7af40fe-774a-4fc8-9f91-e7cfc14b2808"))
-  (instances (project "Variant1_Practical4" (path "/f261cab6-df07-4b02-81a8-c4fba49b4ffa" (reference "#PWR05") (unit 1))))
-)
 (symbol (lib_id "power:GND") (at 65 129.21 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e622feb1-2e65-46cb-80a4-07a353bfdd77")
   (property "Reference" "#PWR07" (at 69 127.21000000000001 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
   (property "Value" "GND" (at 69 130.21 0) (effects (font (size 1.27 1.27)) (justify left)))
@@ -1965,6 +1958,6 @@
 (text "Режим 0: P3.0 — CLK, P3.1 — DATA; частота CLK = 1 МГц" (exclude_from_sim no) (at 55 153 0) (effects (font (size 1.25 1.25)) (justify left bottom)) (uuid "8484afa3-7701-43ec-a603-33effbbd200a"))
 (label "RST" (at 157 72.06 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "029c8bd4-1544-48c7-b884-153035389759"))
 (label "RST" (at 183 78.81 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e0799cda-249b-4634-a605-b0bef209a423"))
-(wire (pts (xy 165 58) (xy 165 61.19)) (stroke (width 0) (type default)) (uuid "5a9edc3c-11ef-4a47-8684-33c9e119bfe3"))
 (wire (pts (xy 165 68.81) (xy 165 82.35)) (stroke (width 0) (type default)) (uuid "870ad433-e812-4cc3-ac62-c61b644c0f5d"))
+(label "RST" (at 165 61.19 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0ba74a42-214c-4888-b46c-168ee3642f82"))
 )
